@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="">
+  <div id="app">
+  <v-app>
+
+    <v-app-bar color="light-blue lighten-5" app>
+      <v-img
+        class="mx-2"
+        src="https://i.imgur.com/qgGY4tB.png"
+        max-height="40"
+        max-width="40"
+        contain
+      ></v-img>
+      
+      <v-toolbar-title class="ml-2">
+        Page title
+      </v-toolbar-title>
+    </v-app-bar>
+
+    <v-content class="text-center ma-6">
+      Hello Vue
+    </v-content>
+
+  </v-app>
+</div>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
